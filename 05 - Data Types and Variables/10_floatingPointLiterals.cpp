@@ -1,5 +1,5 @@
 /**
- * @file 07_floatingPointLiterals.cpp
+ * @file 10_floatingPointLiterals.cpp
  * @brief Demonstrates floating-point literals and their default types in C++
  *
  * -----------------------------

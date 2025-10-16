@@ -1,5 +1,5 @@
 /**
- * @file 06_formattingOutput.cpp
+ * @file 07_formattingOutput.cpp
  * @brief Demonstrates advanced output formatting in C++ using <iomanip>.
  *
  * Key Notes:
