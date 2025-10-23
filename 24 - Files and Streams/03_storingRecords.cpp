@@ -2,19 +2,26 @@
  * @file 03_storingRecords.cpp
  * @brief Demonstrates storing multiple student records in a file.
  *
- * This program takes name and age for 3 students and stores them in a file.
+ * This file shows how to collect and store structured data (name and age) in a file using a tabular format.
+ *
+ * New Topics Introduced:
+ * - **Tabular Data Storage**: Using tabs (`\t`) to separate fields in a file for structured data.
+ * - **cin.ignore()**: Syntax: `cin.ignore()`. Clears the input buffer after reading a number to prevent issues with subsequent `getline`.
+ * - **Use Case**: Storing records in a file is useful for databases or data logging applications.
+ *
+ * The program collects name and age for 3 students and stores them in a file.
  */
 
 #include <iostream>
 #include <fstream>
 #include <string>
-
 using namespace std;
 
 /**
  * @brief Main function to store student records into a file.
- * @note Time Complexity: O(3) ≈ O(1) (constant number of records in this case).
- * @note Space Complexity: O(1)
+ * @note Time Complexity: O(1) for fixed number of records (3 in this case).
+ * @note Space Complexity: O(1) for fixed-size inputs.
+ * @return int Program exit status.
  */
 int main()
 {
